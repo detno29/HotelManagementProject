@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/ivThumb"
+        android:layout_width="64dp"
+        android:layout_height="64dip"
+        android:layout_alignParentLeft="true"
+        android:padding="2dp"
+        android:src="@drawable/hotel_icon"/>
+    <TextView
+        android:id="@+id/tvCRoomNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/ivThumb"
+        android:text="Room number:"/>
+    <TextView
+        android:id="@+id/tvCRoomNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/tvCRoomNumberText"/>
+
+    <TextView
+        android:id="@+id/tvCRoomId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_toRightOf="@id/tvCRoomNumber"/>
+
+    <TextView
+        android:id="@+id/tvCRoomPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_below="@id/tvCRoomNumber"
+        android:layout_toRightOf="@id/ivThumb"/>
+    <TextView
+        android:id="@+id/tvCRoomType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_below="@id/tvCRoomNumber"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

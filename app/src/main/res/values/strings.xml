@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hotel Management Project</string>
+    <string name="action_settings">About</string>
+    <string name="mainactivity_welcometext">Welcome to hotel management app. You don\'t have any room yet. To start the application, please add a new room.</string>
+    <string name="addroomactivity_title">Please enter room information below</string>
+    <string name="addroomactivity_roomnumber">Room number</string>
+    <string name="addroomactivity_roomtype">Room type</string>
+    <string name="addroomactivity_price">Price</string>
+    <string name="addroomactivity_roomstatus">Availability</string>
+    <string name="addroomactivity_description">Description</string>
+    <string name="addroomactivity_image">Photo</string>
+    <string name="roomdetailactivity_title">Room information</string>
+    <string name="roomdetailactivity_roomnumber">Room number</string>
+    <string name="roomdetailactivity_roomtype">Room type</string>
+    <string name="roomdetailactivity_price">Price</string>
+    <string name="roomdetailactivity_roomstatus">Availability</string>
+    <string name="roomdetailactivity_description">Description</string>
+    <string name="roomdetailactivity_image">Photo</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_update">Edit</string>
+    <string name="btn_delete">Delete</string>
+</resources>
